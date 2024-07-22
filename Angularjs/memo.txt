@@ -9,3 +9,6 @@ o 신규 컴포넌트 추가
 
 O String Interpolation {{ data }}
   Property Binding [property]="data"
+  
+  
+- 섹션 2:Angular기초 34.디렉티브 이해하기 부터 study 
