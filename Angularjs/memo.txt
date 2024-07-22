@@ -10,5 +10,11 @@ o 신규 컴포넌트 추가
 O String Interpolation {{ data }}
   Property Binding [property]="data"
   
-  
-- 섹션 2:Angular기초 34.디렉티브 이해하기 부터 study 
+
+- 중요: FormsModule은 양방향 바인딩에 필요합니다!
+  중요: 양방향 바인딩(다음 강의에서 다룸)이 작동하려면 ngModel  디렉티브를 사용하도록 설정해야 합니다. 
+  AppModule의 imports[] 배열에  FormsModule 을 추가하면 됩니다.
+  그런 다음 app.module.ts 파일에 @angular/forms 에서
+
+import { FormsModule } from '@angular/forms'; 임포트(import)를 추가해야 합니다.  
+- 섹션 2:Angular기초 33.디렉티브 이해하기 부터 study 
