@@ -1,0 +1,11 @@
+o node.js (v20.15.1 설치)
+o ng serve or npm start, npm install 패키지명	 	
+o angular cli 설치 
+	- npm install -g @angular/cli@18.1
+o 신규 컴포넌트 추가
+	- ng generate component servers
+	- ng g c servers(컴포넌트명)
+		=> html, .ts, .css (테스트파일 삭제 .spec.ts)
+
+O String Interpolation {{ data }}
+  Property Binding [property]="data"
