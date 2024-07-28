@@ -1,4 +1,2 @@
 <p>The Server Component Page</p>
-<p>
-    {{ 'Server' }} Id : {{ serverId }}, serverStatus : {{ serverStatus }}, getServerStatus : {{ getServerStatus() }}
-</p>
+<p [ngStyle]="{backgroundColor: getColor()}">{{ 'Server' }} Id : {{ serverId }}, serverStatus : {{ serverStatus }}, getServerStatus : {{ getServerStatus() }}</p>
