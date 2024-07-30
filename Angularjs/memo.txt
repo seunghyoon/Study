@@ -18,3 +18,20 @@ O String Interpolation {{ data }}
 
 import { FormsModule } from '@angular/forms'; 임포트(import)를 추가해야 합니다.  
 - 섹션 2:Angular기초 33.디렉티브 이해하기 부터 study 
+
+o ng new명령에 --no-strict , --routing false 및 --standalone false플래그를 추가하여 해당 앱을 생성해야 합니다. 그렇지않으면, 나중에문제가발생할겁니다.
+  (물론 나중에 본 과정에서 'Strict 모드'에 대해 자세히 알아볼 것입니다. 그러니 걱정하지 마세요!)
+
+o 또한 부트스트랩(Bootstrap) CSS 프레임워크도 설치해야 합니다.
+  이 과정에서는 프레임워크 버전3을 사용합니다. npm install --save bootstrap@3 로 설치하세요 =>  @3 이게 중요합니다!
+  또한 Angular CLI 6 이상( ng v 를 통해 확인) 으로 만든 프로젝트를 사용하는 경우 angular.json  파일 대신 .angular-cli.json  파일이 생성됩니다. 
+  해당 파일에서 다음 동영상과 같이 styles[] 배열에 부트스트랩을 추가해야 하지만, 경로는 
+  node_modules/bootstrap/dist/css/bootstrap.min.css 여야만 합니다,
+  절대 ../node_modules/bootstrap/dist/css/bootstrap.min.css가 아닙니다 . 선행되는../ 이것이 포함되지 않아야 합니다.
+
+
+
+
+
+
+
