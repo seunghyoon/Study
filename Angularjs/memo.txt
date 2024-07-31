@@ -1,7 +1,40 @@
 o node.js (v20.15.1 설치)
-o ng serve or npm start, npm install 패키지명	 	
-o angular cli 설치 
-	- npm install -g @angular/cli@18.1
+o ng serve or npm start, npm install 패키지명	 
+  => ex) ng new angular-tour-of-heroes(프로젝트명)
+	? Which stylesheet format would you like to use? (Use arrow keys)
+	❯ CSS             [ https://developer.mozilla.org/docs/Web/CSS                     ]
+	  Sass (SCSS)     [ https://sass-lang.com/documentation/syntax#scss                ]
+	  Sass (Indented) [ https://sass-lang.com/documentation/syntax#the-indented-syntax ]
+	  Less            [ http://lesscss.org                                             ]
+	------------------------------------------------------------------------------------------------------------------
+	? Which stylesheet format would you like to use? CSS             [ https://developer.mozilla.org/docs/Web/CSS                     ]
+	? Do you want to enable Server-Side Rendering (SSR) and Static Site Generation (SSG/Prerendering)? (y/N)  (서버사이드렌더링 할꺼냐?  N)
+	CREATE project-app/angular.json (2706 bytes)
+	CREATE project-app/package.json (1080 bytes)
+	CREATE project-app/README.md (1098 bytes)
+	CREATE project-app/tsconfig.json (1015 bytes)
+	CREATE project-app/.editorconfig (290 bytes)
+	CREATE project-app/.gitignore (629 bytes)
+	CREATE project-app/tsconfig.app.json (439 bytes)
+	CREATE project-app/tsconfig.spec.json (449 bytes)
+	CREATE project-app/.vscode/extensions.json (134 bytes)
+	CREATE project-app/.vscode/launch.json (490 bytes)
+	CREATE project-app/.vscode/tasks.json (980 bytes)
+	CREATE project-app/src/main.ts (256 bytes)
+	CREATE project-app/src/index.html (309 bytes)
+	CREATE project-app/src/styles.css (81 bytes)
+	CREATE project-app/src/app/app.component.html (20239 bytes)
+	CREATE project-app/src/app/app.component.spec.ts (960 bytes)
+	CREATE project-app/src/app/app.component.ts (320 bytes)
+	CREATE project-app/src/app/app.component.css (0 bytes)
+	CREATE project-app/src/app/app.config.ts (318 bytes)
+	CREATE project-app/src/app/app.routes.ts (80 bytes)
+	CREATE project-app/public/favicon.ico (15086 bytes)
+	✔ Packages installed successfully.
+		Directory is already under version control. Skipping initialization of git	 
+	------------------------------------------------------------------------------------------------------------------
+	
+
 o 신규 컴포넌트 추가
 	- ng generate component servers
 	- ng g c servers(컴포넌트명)
