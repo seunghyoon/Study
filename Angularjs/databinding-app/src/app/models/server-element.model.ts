@@ -1,4 +1,4 @@
-export class Element {
+export class ServerElement {
     public type: string;
     public name: string;
     public content: string;
