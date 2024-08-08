@@ -1,13 +1,24 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Element } from './models/element.model';
+
 
 @Component({
   selector: 'app-root',
-  standalone: true,
-  imports: [RouterOutlet],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'databinding-app';
+  serverElements:Element[] = [];
+  newServerName = '';
+  newServerContent = '';
+  
+  onAddServer() {
+
+   
+    this.serverElements.push(new Element('server', this.newServerName, this.newServerContent));
+  }
+
+  onAddBlueprint() {
+    this.serverElements.push(new Element('blueprint', this.newServerName, this.newServerContent));
+  }
 }
